@@ -14,6 +14,16 @@
         <color>7f00ff00</color>
       </PolyStyle>
     </Style>
+    <Style id="z1">
+	<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+	<LineStyle>
+  		<color>7f00ffff</color>
+  		<width>4</width>
+	</LineStyle>
+	</Style>
+	<Placemark><name>SGM 123</name>
+		<styleUrl>#z1</styleUrl><Point><coordinates>-118.289272,34.021311</coordinates></Point>
+	</Placemark>
     <Placemark>
       <name>Absolute Extruded</name>
       <description>Transparent green wall with yellow outlines</description>
