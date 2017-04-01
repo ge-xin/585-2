@@ -12,10 +12,10 @@ def write_last(f):
     f.writelines("</kml>\n")
 
 def generator(f):
-    R = 5; r = 1; a = 4
+    R = 5.0; r = 1.0; a = 4.0
     x0 = R + r - a
-    y0 = 0
-    nRev = 10
+    y0 = 0.0
+    nRev = 10.0
     t = 0.0
 
     original_x = -118.289272
