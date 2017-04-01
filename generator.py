@@ -1,4 +1,5 @@
 import math
+import shutil
 
 def write_point(x, y, f):
     f.writelines(str(x) + ',' + str(y) + ',' +'0.\n');
@@ -30,6 +31,7 @@ def generator(f):
         t += 0.01
 
 if __name__ == '__main__':
+    shutil.copyfile('./spiro_o.kml', './spiro.kml')
     output_file = 'spiro.kml'
     f = open(output_file, 'a', encoding='latin1')
     generator(f)
